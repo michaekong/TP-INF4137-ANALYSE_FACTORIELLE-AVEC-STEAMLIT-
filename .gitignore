@@ -1,0 +1,34 @@
+# Fichiers Python compilés
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Environnements virtuels
+venv/
+.env
+.venv/
+env/
+env.bak/
+
+# Fichiers de configuration d'IDE et d'éditeurs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Fichiers journaux
+*.log
+
+# Fichiers de données temporaires
+*.tmp
+*.temp
+*.zip
+
+# Fichiers spécifiques à Streamlit
+.streamlit/secrets.toml
+
+# Récupération des fichiers de dépendances
+*.egg-info/
+dist/
+build/
